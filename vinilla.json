@@ -6,6 +6,6 @@
     "version": "0.1",
     "depends_on": [
         "CodingLiki/OoAutoloader",
-        "CodingLiki/PsrEventDispatcher"
+        "Psr/EventDispatcher"
     ]
 }

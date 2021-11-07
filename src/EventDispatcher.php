@@ -2,9 +2,10 @@
 
 namespace CodingLiki\EventDispatcher;
 
-use CodingLiki\PsrEventDispatcher\EventDispatcherInterface;
-use CodingLiki\PsrEventDispatcher\ListenerProviderInterface;
-use CodingLiki\PsrEventDispatcher\StoppableEventInterface;
+
+use Psr\EventDispatcher\EventDispatcherInterface;
+use Psr\EventDispatcher\ListenerProviderInterface;
+use Psr\EventDispatcher\StoppableEventInterface;
 
 class EventDispatcher implements EventDispatcherInterface
 {

@@ -2,7 +2,8 @@
 
 namespace CodingLiki\EventDispatcher\ListenerProviders;
 
-use CodingLiki\PsrEventDispatcher\ListenerProviderInterface;
+
+use Psr\EventDispatcher\ListenerProviderInterface;
 
 class ArrayListenerProvider implements ListenerProviderInterface
 {
